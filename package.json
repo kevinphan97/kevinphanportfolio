@@ -1,14 +1,11 @@
 {
-  "homepage": "http://kevinphan97.github.io/kevinphanprofile",
   "name": "kevinphanprofile",
   "version": "0.1.0",
   "private": true,
   "scripts": {
     "dev": "next dev",
     "build": "next build && next export",
-    "start": "next start",
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d build"
+    "start": "next start"
   },
   "dependencies": {
     "next": "^11.1.2",
